@@ -1,0 +1,57 @@
+<h1>Resume</h1>
+
+<ul class="tabs" data-tabs id="resume-tabs">
+  <li class="tabs-title is-active"><a data-tabs-target="panel-work" href="#panel-work" aria-selected="true">Work</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel-education" href="#panel-education">Education</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel-technology" href="#panel-technology">Technology</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="resume-tabs">
+  <div class="tabs-panel is-active" id="panel-work">
+
+    <div class="grid-x">
+      <div class="small-6 cell">
+        left
+      </div>
+      <div class="small-6 cell">
+        right
+      </div>
+    </div>
+
+  </div>
+  <div class="tabs-panel" id="panel-education">
+
+    <ul class="education-items">
+      {{#each education}}
+        <div class="education-item">
+          <div class="grid-x">
+            <div class="small-4 cell">
+              <img src="/assets/img/{{logo}}" />
+            </div>
+            <div class="small-5 cell">
+              <h3>{{this.school}}</h3>
+              <p>{{this.degree}}, Class of {{this.class}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </ul>
+
+  </div>
+  <div class="tabs-panel" id="panel-technology">
+    <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+  </div>
+</div>
+
+
+
+<!-- <div class="row">
+  <div class="span4">
+    <%= link_to image_tag(school_item['logo'], width: 240), school_item['url'] %>
+  </div>
+  <div class="span5">
+    <h3><%= school_item['school'] %> </h3>
+
+    <p><%= school_item['degree'] %>, Class of <%= school_item['class'] %></p>
+  </div>
+</div> -->
