@@ -1,0 +1,50 @@
+--- # Favorite Technologies
+- technology: Python
+  url: 'http://python.org/'
+  image: python.jpg
+  description: |
+    Well, its happened.  After a year of developing in Python, I am now dreaming in Python.  It was a simple transition
+    from Ruby to Python.  And the very welcoming and helpful Python community helped get the most of the language quickly.
+    Most of the work that I have done has centered around [Flask](http://flask.pocoo.org).  For testing I have leaned
+    on the [lettuce bdd framework](http://lettuce.it).
+
+- technology: Ruby on Rails
+  url: 'http://rubyonrails.org/'
+  image: rails.jpg
+  description: |
+    Been developing with Ruby and Rails for over 4 years.  I have never had more fun or have been more productive than
+    I have been working with Ruby.  The DRY (don't repeat yourself) philosophy or Rails, combined with the elegance of
+    Ruby make it such a killer combination.  Also, the supporting community (Thanks [Ryan](http://railscasts.com)!) really push to you to keep
+    learning new libraries and hone your skills
+
+- technology: MongoDB
+  url: 'http://www.mongodb.org/'
+  image: mongo.png
+  description: |
+    I have been really impressed with Mongo.  I love not having to deal with migrations anymore.  The DSL of
+    [Mongoid](http://mongoid.org) makes my domain models easy to read, and modify.  The performance and scalability
+    (at least for the types of applications that I have built) have been really impressive.  Plus, I have to give a
+    shoutout to the folks at [MongoHQ](http://mongohq.com) who have phenominal support and have been great system admins for my projects
+
+- technology: Heroku
+  url: 'http://heroku.com/'
+  image: heroku-logo.png
+  description: |
+    While not all my projects run on [Heroku](http://heroku.com), most do.  It really allows me to focus on the business-domain of the
+    problem that I am solving, and leave the infrastructure to them.
+
+- technology: Amazon Web Services
+  url: 'http://aws.amazon.com/'
+  image: 'AWS.png'
+  description: |
+    For more sophesticated projects when I need to leave the heroku stack -- I head to Amazon
+
+    The AWS suite (including `S3`, `EC2`, `RedShift`, `RDS`, `CloudFront`, ...) has been my goto Cloud Infrastructure
+    Stack for the last four years.
+
+- technology: Cucumber
+  url: 'http://http://cukes.info//'
+  image: cucumber-logo.png
+  description: |
+    For a long time I resisted TDD/BDD.  When I was introducted to [Cucumber](http://cukes.info), that certainly changed.
+    Cucumber promotes creating 'living' documentation that also serves as your test harness.

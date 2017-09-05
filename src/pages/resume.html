@@ -9,14 +9,21 @@
 <div class="tabs-content" data-tabs-content="resume-tabs">
   <div class="tabs-panel is-active" id="panel-work">
 
-    <div class="grid-x">
-      <div class="small-6 cell">
-        left
+    <ul class="work-items">
+      {{#each work}}
+      <div class="grid-x">
+        <div class="small-4 cell">
+          <img src="/assets/img/{{logo}}" />
+        </div>
+        <div class="small-8 cell">
+          <h3>{{company}} <small>{{title}}</small></h3>
+            <span class='years'>{{years}}</span>
+            {{description}}
+        </div>
       </div>
-      <div class="small-6 cell">
-        right
-      </div>
-    </div>
+      {{/each}}
+    </ul>
+
 
   </div>
   <div class="tabs-panel" id="panel-education">
@@ -28,7 +35,7 @@
             <div class="small-4 cell">
               <img src="/assets/img/{{logo}}" />
             </div>
-            <div class="small-5 cell">
+            <div class="small-8 cell">
               <h3>{{this.school}}</h3>
               <p>{{this.degree}}, Class of {{this.class}}</p>
             </div>
@@ -39,7 +46,22 @@
 
   </div>
   <div class="tabs-panel" id="panel-technology">
-    <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+
+    <ul class="technology-items">
+      {{#each technologies}}
+      <div class="grid-x">
+        <div class="small-4 cell">
+          <img src="/assets/img/{{image}}" />
+        </div>
+        <div class="small-8 cell">
+          <h3>{{technology}}</h3>
+          {{description}}
+        </div>
+      </div>
+      {{/each}}
+    </ul>
+
+
   </div>
 </div>
 
