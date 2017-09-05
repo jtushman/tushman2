@@ -52,4 +52,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+// global styles
+@import 'layout';
+
+// custom components
 @import 'components/building-blocks/topbar-responsive';

@@ -1,0 +1,37 @@
+dl.dl-horizontal {
+
+  // width: 80%;
+
+  dt {
+     float: left;
+     margin-right: 10%;
+     max-width: 40%;
+     font-weight: bold;
+   }
+   dd {
+     color: grey;
+     margin-left: 50%;
+     margin-bottom: .3em;
+   }
+
+  //  dd::after {
+  //    content: " ";
+  //    display: block;
+  //    clear: left;
+  //  }
+}
+
+
+.page-index {
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.side-bar {
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
