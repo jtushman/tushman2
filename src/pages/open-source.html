@@ -1,0 +1,17 @@
+<h1>Open Source</h1>
+
+{{#each projects}}
+  <div class="x-grid">
+      <div class="cell">
+        <h3>{{project}} <small>{{short_description}}</small></h3>
+        <h4>
+          <a href="{{repo}}">github</a> | <a href="{{pypi}}">pypi</a>
+          {{#if this.docs}}
+           | <a href="{{docs}}">docs</a>
+          {{/if}}
+        </h4>
+        <br/>
+        {{description}}
+      </div>
+  </div>
+{{/each}}
