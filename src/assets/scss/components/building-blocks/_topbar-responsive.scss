@@ -9,6 +9,11 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
+
+    img {
+      padding-bottom: 2px;
+    }
+
   }
 
   .menu {
