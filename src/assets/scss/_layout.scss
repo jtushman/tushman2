@@ -1,3 +1,9 @@
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+
 dl.dl-horizontal {
 
   // width: 80%;
@@ -22,16 +28,47 @@ dl.dl-horizontal {
 }
 
 
-.page-index {
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-  }
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.side-bar {
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#page-resume {
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 240px;
   }
+
+  .years {
+    font-weight: bold;
+
+  }
+
+  ul#resumeNav {
+    margin-bottom: 0;
+  }
+
+  .tabs-title > a {
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+
 }
