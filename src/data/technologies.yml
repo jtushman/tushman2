@@ -3,7 +3,7 @@
   url: 'http://python.org/'
   image: python.jpg
   description: |
-    Well, its happened.  After a year of developing in Python, I am now dreaming in Python.  It was a simple transition
+    Well, it happened.  After a year of developing in Python, I began dreaming in Python.  It was a simple transition
     from Ruby to Python.  And the very welcoming and helpful Python community helped me get the most out of the language quickly.
     Most of the work that I have done has centered around [Flask](http://flask.pocoo.org).  For testing I have leaned
     on the [lettuce bdd framework](http://lettuce.it).
@@ -12,7 +12,7 @@
   url: 'http://rubyonrails.org/'
   image: rails.jpg
   description: |
-    Been developing with Ruby and Rails for over 4 years.  I have never had more fun nor been more productive than
+    Been developing with Ruby and Rails for years.  I have never had more fun nor been more productive than
     I have been working with Ruby.  The DRY (don't repeat yourself) philosophy or Rails, combined with the elegance of
     Ruby make it such a killer combination.  Also, the supporting community (Thanks [Ryan](http://railscasts.com)!) really push to you to keep
     learning new libraries and hone your skills

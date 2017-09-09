@@ -16,7 +16,7 @@
   years: 2012 - 2015
   description: |
     Like [Voltron](http://www.youtube.com/watch?v=1uS5b8aQ6z8),
-    Pipewave and the good folks at [ZEFR](http://www.zefr.com) decided to join forces into a force much stronger than either than us alone.
+    Pipewave and the good folks at [ZEFR](http://www.zefr.com) decided to join forces to become much stronger than either of us alone.
     Read about it [here](http://pandodaily.com/2013/01/07/zefr-acquires-pipewave-moves-toward-serving-both-brands-and-content-owners-on-youtube/).
 
     ZEFR is a technology company that organizes, packages, and merchandises the 90% of content on YouTube that no one
@@ -29,10 +29,10 @@
   url: 'http://zefr.com'
   years: 2011 - 2015
   description: |
-    My latest, and probably most ambitious project to date.
-
-    [Pipewave](http://zefr.com) is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
+    Pipewave is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
     Scale, performance, and reliability were paramount in this project.
+
+    [We sold Pipewave to ZEFR in 2013.](https://pando.com/2013/01/07/zefr-acquires-pipewave-moves-toward-serving-both-brands-and-content-owners-on-youtube/)
 
 - company: StatSamurai
   title: 'Founder, CTO'
@@ -41,7 +41,7 @@
   years: 2011 - 2015
   description: |
     In building Pipewave, I was shocked not to find a web service to handle statistical jobs.
-    So, I built [StatSamurai](http://zefr.com) -- a high performance, cloud-based, no-hassle statistic processing service.
+    So, I built StatSamurai -- a high performance, cloud-based, no-hassle statistic processing service.
 
 - company: PacWest Consulting Partners
   title: Founding Partner
@@ -70,4 +70,4 @@
     I was the architect of the Advanced Technology Group, responsible for
     project design and quality of Sapient’s portfolio of technical solutions for IT consulting clients. I
     formulated Sapient's strategy on emerging technologies, helped establish Sapient's first satellite office in
-    India, and led teams of 10-40 multi-disciplinary consultings on major technology deployments.
+    India, and led teams of 10-40 multi-disciplinary consultants on major technology deployments.
