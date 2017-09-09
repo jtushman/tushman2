@@ -4,6 +4,29 @@
 }
 
 
+.side-bar {
+
+  table {
+    border-spacing: 0px;
+
+    tbody {
+      border: none;
+
+      tr {
+        border-bottom: 0px;
+
+        th, td {
+          padding-top: .25rem;
+          padding-bottom: .25rem;
+        }
+        th {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
 dl.dl-horizontal {
 
   // width: 80%;
