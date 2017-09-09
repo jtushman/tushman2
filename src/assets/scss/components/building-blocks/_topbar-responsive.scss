@@ -22,6 +22,12 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   .menu {
     background: $topbar-responsive-bg;
 
+    // align-items: left;
+
+    // &.simple.vertical li + li {
+    //     margin-left: 0;
+    // }
+
     li:last-of-type {
       margin-right: 0;
     }

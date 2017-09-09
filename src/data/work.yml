@@ -15,9 +15,9 @@
   url: 'http://www.zefr.com'
   years: 2012 - 2015
   description: |
-    Like, [Voltron](http://www.youtube.com/watch?v=1uS5b8aQ6z8).
-    Pipewave and the good folks at [ZEFR](http://www.zefr.com) decided to join forces into a a force much stronger than either than us alone.
-    Read about it [here](http://pandodaily.com/2013/01/07/zefr-acquires-pipewave-moves-toward-serving-both-brands-and-content-owners-on-youtube/)
+    Like [Voltron](http://www.youtube.com/watch?v=1uS5b8aQ6z8),
+    Pipewave and the good folks at [ZEFR](http://www.zefr.com) decided to join forces into a force much stronger than either than us alone.
+    Read about it [here](http://pandodaily.com/2013/01/07/zefr-acquires-pipewave-moves-toward-serving-both-brands-and-content-owners-on-youtube/).
 
     ZEFR is a technology company that organizes, packages, and merchandises the 90% of content on YouTube that no one
     else can make sense of. We do it for rights holders and for brands.
@@ -26,37 +26,37 @@
 - company: Pipewave
   title: 'Founder, CTO'
   logo: pipewave.png
-  url: 'http://pipewave.com'
+  url: 'http://zefr.com'
   years: 2011 - 2015
   description: |
-    My latest, and probably most ambitious to date.
+    My latest, and probably most ambitious project to date.
 
-    [Pipewave](http://pipewave.com) is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
+    [Pipewave](http://zefr.com) is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
     Scale, performance, and reliability were paramount in this project.
 
 - company: StatSamurai
   title: 'Founder, CTO'
   logo: statsamurai.png
-  url: 'http://statsamurai.com'
+  url: 'http://zefr.com'
   years: 2011 - 2015
   description: |
     In building Pipewave, I was shocked not to find a web service to handle statistical jobs.
-    So, I built [StatSamurai](http://statsamurai.com) -- a high performance, cloud-based, no-hassle statistic processing service
+    So, I built [StatSamurai](http://zefr.com) -- a high performance, cloud-based, no-hassle statistic processing service.
 
 - company: PacWest Consulting Partners
   title: Founding Partner
   logo: pacwest.png
   url: 'http://pacwestcp.com'
-  years: 2008 - 2014
+  years: 2008 - 2011
   description: |
     [PacWest Consulting Partners](http://pacwestcp.com) is a boutique strategy consultancy and market intelligence firm
     that specializes in the energy, industrial, and resources sectors.  Much of our work is focused around the oilfield
     and the many industries that supply critical products and services to it.
 
-    I led the technology practice where we implement, deploy and support large business transforming systems and
+    I led the technology practice where we implemented, deployed and supported large business transforming systems and
     processes.
 
-    PacWest was acquired in 2014
+    PacWest was acquired in 2014.
 
 - company: Sapient
   title: Architect
@@ -64,10 +64,10 @@
   url: 'http://sapient.com'
   years: 1997 - 2002
   description: |
-    My formative years between undergrad and business school I spent at [Sapient](http://sapient.com).  Here I cut my teeth on software
-    development and process, I really couldn't imagine a better first job out of school.
+    My formative years between undergrad and business school were spent at [Sapient](http://sapient.com).  Here, I cut my teeth on software
+    development and process.  I really couldn't imagine a better first job out of school.
 
     I was the architect of the Advanced Technology Group, responsible for
-    project design and quality of Sapient’s portfolio of technical solutions for IT consulting clients. He
-    formulated Sapient's strategy on emerging technologies,helped establish Sapient's first satilite office in
+    project design and quality of Sapient’s portfolio of technical solutions for IT consulting clients. I
+    formulated Sapient's strategy on emerging technologies, helped establish Sapient's first satellite office in
     India, and led teams of 10-40 multi-disciplinary consultings on major technology deployments.
