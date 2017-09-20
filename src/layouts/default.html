@@ -13,14 +13,40 @@
   <body>
     {{> topbar-responsive}}
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    <div class="grid-x grid-padding-x">
-      <div class="small-12 medium-8 cell">
-        {{> body}}
+    <section class="main">
+      <div class="grid-x grid-padding-x">
+          {{> body}}
       </div>
-      <div class="small-12 medium-4 cell">
-        {{> sidebar}}
+    </section>
+
+    <footer>
+      <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+          <div class="cell">
+            <h4>About this Site</h4>
+            <hr/>
+            Built with some of my favorite technologies
+            <ul>
+              <li>Foundation</li>
+              <li>ZURB Stack</li>
+              <li>Hosted in a S3 Bucket</li>
+              <li>DNS managed by Route53</li>
+            </ul>
+            <p>
+              Want to do something similar, here is the <a href="https://jtushman@github.com/jtushman/tushman2.git">source</a>.
+            </p>
+          </div>
+          <div class="cell">
+            <h4><a href="http://profile.pmc.org/JT0150">Help me</a> fight cancer</h4>
+            <hr/>
+            <a href="http://profile.pmc.org/JT0150"><img alt="PMC" src="/assets/img/PMC.png" width="140" /></a>
+
+          </div>
+          <div class="cell">
+            <h4>My Info</h4>
+            <hr/>
+          </div>
       </div>
-    </div>
+    </footer>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>
