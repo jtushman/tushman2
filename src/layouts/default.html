@@ -13,14 +13,52 @@
   <body>
     {{> topbar-responsive}}
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    <div class="grid-x grid-padding-x">
-      <div class="small-12 medium-8 cell">
-        {{> body}}
+    <section class="main">
+      <div class="grid-x grid-padding-x">
+          {{> body}}
       </div>
-      <div class="small-12 medium-4 cell">
-        {{> sidebar}}
+    </section>
+
+    <footer>
+      <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+          <div class="cell">
+            <h3>About this Site</h3>
+            <hr/>
+            Built with some of my favorite technologies
+            <ul>
+              <li>Foundation</li>
+              <li>ZURB Stack</li>
+              <li>Hosted in a S3 Bucket</li>
+              <li>DNS managed by Route53</li>
+            </ul>
+            <p>
+              Want to do something similar, here is the <a href="https://jtushman@github.com/jtushman/tushman2.git">source</a>.
+            </p>
+          </div>
+          <div class="cell">
+            <h3><a href="http://profile.pmc.org/JT0150">Help me</a> fight cancer</h3>
+            <hr/>
+
+            <div class="image-content">
+              <a href="http://profile.pmc.org/JT0150"><img alt="PMC" src="/assets/img/pmc-badge5x5.png" width="140" /></a>
+            </div>
+
+          </div>
+          <div class="cell">
+            <h3>My Info</h3>
+            <hr/>
+
+            <div>Email: <a href="mail:jtushman@gmail.com">jtushman@gmail.com</a></div>
+            <div>Blog: <a href="http://jtushman.github.io">tushman.io</a></div>
+
+
+            <a href="https://twitter.com/tushman" class="social-icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
+            <a href="https://github.com/jtushman" class="social-icon-button github"><i class="fa fa-github" aria-hidden="true"></i><span></span></a>
+            <a href="http://www.linkedin.com/pub/jonathan-tushman/0/77/44b" class="social-icon-button linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></i><span></span></a>
+            <a href="http://stackoverflow.com/users/192791/jonathan" class="social-icon-button stack-overflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></i><span></span></a>
+          </div>
       </div>
-    </div>
+    </footer>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>

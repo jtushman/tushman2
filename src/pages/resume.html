@@ -10,65 +10,53 @@
 
 <div class="tabs-content" data-tabs-content="resume-tabs">
   <div class="tabs-panel is-active" id="panel-work">
-
-    <ul class="work-items">
-      {{#each work}}
-      <div class="grid-x">
-        <div class="small-12 medium-12 large-6 cell">
-          <img src="/assets/img/{{logo}}" />
-        </div>
-        <div class="small-12 medium-12 large-6 cell">
-          <h3>{{company}} <small>{{title}}</small></h3>
-            <span class='years'>{{years}}</span>
-            {{#markdown}}
-            {{~description~}}
-            {{/markdown}}
-        </div>
+    {{#each work}}
+    <div class="grid-x">
+      <div class="small-12 medium-12 large-4 cell">
+        <img src="/assets/img/{{logo}}" />
       </div>
-      <hr/>
-      {{/each}}
-    </ul>
-
-
-  </div>
-  <div class="tabs-panel" id="panel-education">
-
-    <ul class="education-items">
-      {{#each education}}
-        <div class="education-item">
-          <div class="grid-x">
-            <div class="small-12 medium-12 large-6 cell">
-              <img src="/assets/img/{{logo}}" />
-            </div>
-            <div class="small-12 medium-12 large-6 cell">
-              <h3>{{this.school}}</h3>
-              <p>{{this.degree}}, Class of {{this.class}}</p>
-            </div>
-          </div>
-        </div>
-        <hr/>
-      {{/each}}
-    </ul>
-
-  </div>
-  <div class="tabs-panel" id="panel-technology">
-
-    <ul class="technology-items">
-      {{#each technologies}}
-      <div class="grid-x">
-        <div class="small-12 medium-12 large-6 cell">
-          <img src="/assets/img/{{image}}" />
-        </div>
-        <div class="small-12 medium-12 large-6 cell">
-          <h3>{{technology}}</h3>
+      <div class="small-12 medium-12 large-8 cell">
+        <h3>{{company}} <small>{{title}}</small></h3>
+          <span class='years'>{{years}}</span>
           {{#markdown}}
           {{~description~}}
           {{/markdown}}
+      </div>
+    </div>
+    <hr/>
+    {{/each}}
+  </div>
+
+  <div class="tabs-panel" id="panel-education">
+    {{#each education}}
+      <div class="grid-x">
+        <div class="small-12 medium-12 large-7 cell">
+          <img src="/assets/img/{{logo}}" />
+        </div>
+        <div class="small-12 medium-12 large-5 cell">
+          <h3>{{this.school}}</h3>
+          <p>{{this.degree}}, Class of {{this.class}}</p>
         </div>
       </div>
       <hr/>
-      {{/each}}
-    </ul>
+    {{/each}}
+  </div>
+
+  <div class="tabs-panel" id="panel-technology">
+    {{#each technologies}}
+    <div class="grid-x">
+      <div class="small-12 medium-12 large-4 cell">
+        <img src="/assets/img/{{image}}" />
+      </div>
+      <div class="small-12 medium-12 large-8 cell">
+        <h3>{{technology}}</h3>
+        {{#markdown}}
+        {{~description~}}
+        {{/markdown}}
+      </div>
+    </div>
+    <hr/>
+    {{/each}}
 
     <h2>Other Recent Technology Experience</h2>
     <dl class="dl-horizontal">
